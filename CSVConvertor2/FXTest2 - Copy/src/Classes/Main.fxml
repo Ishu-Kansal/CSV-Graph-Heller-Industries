@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="954.0" prefWidth="1621.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button layoutX="114.0" layoutY="30.0" mnemonicParsing="false" onMouseClicked="#getFile" text="Choose File (.csv)" />
+      <ComboBox fx:id="comb" layoutX="39.0" layoutY="636.0" onAction="#select1st" prefWidth="150.0" promptText="Choose Node" visibleRowCount="8" />
+      <ComboBox fx:id="comb2" layoutX="39.0" layoutY="586.0" onAction="#select2nd" prefWidth="150.0" promptText="Choose Node" visibleRowCount="8" />
+      <ComboBox fx:id="comb5" layoutX="39.0" layoutY="409.0" onAction="#select5th" prefWidth="150.0" promptText="Choose Node" visibleRowCount="8" />
+      <ComboBox fx:id="comb3" layoutX="39.0" layoutY="522.0" onAction="#select3rd" prefWidth="150.0" promptText="Choose Node" visibleRowCount="8" />
+      <ComboBox fx:id="comb4" layoutX="39.0" layoutY="465.0" onAction="#select4th" prefWidth="150.0" promptText="Choose Node" visibleRowCount="8" />
+      <ComboBox fx:id="comb6" layoutX="39.0" layoutY="351.0" onAction="#select6th" prefWidth="150.0" promptText="Choose Node" visibleRowCount="8" />
+      <ComboBox fx:id="comb7" layoutX="39.0" layoutY="289.0" onAction="#select7th" prefWidth="150.0" promptText="Choose Node" visibleRowCount="8" />
+      <ComboBox fx:id="comb8" layoutX="39.0" layoutY="234.0" onAction="#select8th" prefWidth="150.0" promptText="Choose Node" visibleRowCount="8" />
+      <ComboBox fx:id="comb9" layoutX="39.0" layoutY="176.0" onAction="#select9th" prefWidth="150.0" promptText="Choose Node" visibleRowCount="8" />
+      <ComboBox fx:id="comb10" layoutX="39.0" layoutY="120.0" onAction="#select10th" prefWidth="150.0" promptText="Choose Node" visibleRowCount="8" />
+      <LineChart fx:id="lineGraph" animated="false" createSymbols="false" disable="true" focusTraversable="true" layoutX="191.0" layoutY="55.0" prefHeight="683.0" prefWidth="1431.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis autoRanging="false" minorTickLength="1.0" side="LEFT" tickLabelGap="2.0" tickUnit="2.0" upperBound="20.0" />
+        </yAxis>
+         <cursor>
+            <Cursor fx:constant="CROSSHAIR" />
+         </cursor>
+      </LineChart>
+      <TextField fx:id="enterStartTime" layoutX="318.0" layoutY="776.0" promptText="Start Time (HH:MM:SS)" />
+      <TextField fx:id="enterEndTime" layoutX="537.0" layoutY="776.0" promptText="End Time (HH:MM:SS)" />
+      <Button fx:id="loadButton" layoutX="710.0" layoutY="776.0" mnemonicParsing="false" onAction="#loadGraph" text="Load Graph" />
+      <TextField fx:id="filePathDisplay" layoutX="258.0" layoutY="30.0" prefHeight="25.0" prefWidth="597.0" />
+      <TextField fx:id="errorBox" layoutX="811.0" layoutY="776.0" prefHeight="25.0" prefWidth="597.0" />
+   </children>
+</AnchorPane>

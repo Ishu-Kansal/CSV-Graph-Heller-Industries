@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/FXTest2"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="javafx-fxml" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/javafx-fxml-16.jar!/"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/javafx-fxml-16-win.jar!/"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/javafx-controls-16.jar!/"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/javafx-controls-16-win.jar!/"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/javafx-graphics-16.jar!/"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/javafx-graphics-16-win.jar!/"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/javafx-base-16.jar!/"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/javafx-base-16-win.jar!/"/>
+	</lib>
+	<levels>
+		<level name="lib" value="project"/>
+	</levels>
+</component>
