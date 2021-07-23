@@ -1,0 +1,10 @@
+C:\Users\Ishu\source\repos\HelloWorldCsharp\HelloWorldCsharp\bin\Debug\HelloWorldCsharp.exe.config
+C:\Users\Ishu\source\repos\HelloWorldCsharp\HelloWorldCsharp\bin\Debug\HelloWorldCsharp.exe
+C:\Users\Ishu\source\repos\HelloWorldCsharp\HelloWorldCsharp\bin\Debug\HelloWorldCsharp.pdb
+C:\Users\Ishu\source\repos\HelloWorldCsharp\HelloWorldCsharp\obj\Debug\HelloWorldCsharp.csproj.AssemblyReference.cache
+C:\Users\Ishu\source\repos\HelloWorldCsharp\HelloWorldCsharp\obj\Debug\HelloWorldCsharp.Properties.Resources.resources
+C:\Users\Ishu\source\repos\HelloWorldCsharp\HelloWorldCsharp\obj\Debug\HelloWorldCsharp.csproj.GenerateResource.cache
+C:\Users\Ishu\source\repos\HelloWorldCsharp\HelloWorldCsharp\obj\Debug\HelloWorldCsharp.csproj.CoreCompileInputs.cache
+C:\Users\Ishu\source\repos\HelloWorldCsharp\HelloWorldCsharp\obj\Debug\HelloWorldCsharp.exe
+C:\Users\Ishu\source\repos\HelloWorldCsharp\HelloWorldCsharp\obj\Debug\HelloWorldCsharp.pdb
+C:\Users\Ishu\source\repos\HelloWorldCsharp\HelloWorldCsharp\obj\Debug\HelloWorldCsharp.btn_Hello.resources
